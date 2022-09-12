@@ -10,6 +10,9 @@
 </div>
 <!-- Page Header End -->
 <div class="container">
+    {% for message in messages%}
+    <div class="alert alert-danger" role="alert">{{message}}</div>
+    {% endfor%}
     <div class="row">
         {% for item in items %}
         <div class="col-md-4">
@@ -24,7 +27,6 @@
                             <a href="{% url 'add-to-cart' choice=item.id %}">
                                 <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
                             </a>
-                            
                         </div>
                         <p class="font-weight-bolder">${{item.price}}</p>
                     </div>
@@ -32,7 +34,7 @@
             </div>
         </div>
         {% endfor %}
-        
+
     </div>
 </div>
 {% endblock %}

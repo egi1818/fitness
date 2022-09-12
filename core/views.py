@@ -142,7 +142,7 @@ def ordersuccess(request, id, session_id):
         order.save()
 
     messages.success(
-                request, "Thanks for your payment.")
+                request, "Thanks for your payment. Order placed successfully.")
     return redirect("products")
 
 def canceled(request):
