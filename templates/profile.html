@@ -9,16 +9,24 @@
 </div>
 <!-- Page Header End -->
 <div class="container">
-    <a href="{% url 'editprofile' %}"><button class="btn btn-primary">Edit Profile</button></a>
+    <div class="d-flex justify-content-between p-2 bd-highlight">
+        <h2>Profile</h2>
+        <a href="{% url 'editprofile' %}"><button class="btn btn-primary">Edit Profile</button></a>
+    </div>
     
-    <table class="table table-hover">
+    
+    <table class="table">
         <tr>
             <td>Username</td>
             <td>{{profile.user.username}}</td>
         </tr>
         <tr>
             <td>First Name</td>
-            <td>{{profile.user.firstname}}</td>
+            <td>{{profile.user.first_name}}</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>{{profile.user.last_name}}</td>
         </tr>
         <tr>
             <td>Email</td>

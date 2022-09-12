@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load widget_tweaks %}
 {% block content %}
 <!-- Page Header Start -->
 <div class="container-fluid page-header mb-5">
@@ -8,9 +9,24 @@
     </div>
 </div>
 <!-- Page Header End -->
-<div class="container">
-    edit profile
-    {{form}}
+<div class="container col-md-4">
+    <form method="POST">
+        {% csrf_token %}
+        <fieldset class="form-group">
+            {% for field in form %}
+            <div class="mb-3">
+                {{ field.errors }}
+                {{ field.label_tag }} {% render_field field class+="form-control" %}
+                {% if field.help_text %}
+                <small class="text-muted">{{ field.help_text|safe }}</small>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </fieldset>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+    </form>
     
 </div>
 {% endblock %}

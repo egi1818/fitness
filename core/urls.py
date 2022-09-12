@@ -13,4 +13,9 @@ urlpatterns = [
     path('create-checkout-session/<str:choice>', views.create_checkout_session),
     path('success/<str:session_id>', views.success), # new
     path('cancelled/', views.canceled), # new
+    path('products/', views.products, name="products"),
+    path('cart/', views.cart, name="cart"),
+    path('add-to-cart/<int:choice>/', views.add_to_cart, name="add-to-cart"),
+    path('order_checkout/<int:id>/', views.order_checkout, name="order_checkout"),
+    path('ordersuccess/<int:id>/<str:session_id>', views.ordersuccess),
 ]

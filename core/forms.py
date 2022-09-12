@@ -1,12 +1,13 @@
 from django import forms
 from core.models import Contact
+from django.contrib.auth.models import User
 
 class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact
         fields = '__all__'
 
-class ProfileForm(forms.Form):
-    firstname = forms.CharField(max_length=100)
-    lastname = forms.CharField(max_length=100)
-    email = forms.EmailField()
+class ProfileForm(forms.ModelForm):
+    class Meta:
+        model = User
+        fields = ['first_name', 'last_name', 'email']
