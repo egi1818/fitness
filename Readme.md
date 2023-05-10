@@ -100,6 +100,8 @@ This application has been designed with accessibility in mind, and includes appr
 ## Testing
  - `Validation` -
 This application has been validated using the W3C Markup Validation Service.
+* [HTML validation](document/html.check.png)
+* [CSS validation](document/css.check.png)
 
 ## Fixed Bugs
 * No major bugs were encountered during development.
@@ -112,11 +114,11 @@ All user stories have been tested and validated.
 
 ## Lighthouse
 - Home Page
-![Homepage](homepage.png)
+![Homepage](document/homepage.png)
 - Class Time
-![Class Time](classtime.png)
+![Class Time](document/classtime.png)
 - Merchandise
-![Merchandise](mer.png)
+![Merchandise](document/mer.png)
 
 ## Deployment & Local Development
 * `Deploying to Heroku`
