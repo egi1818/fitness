@@ -176,4 +176,4 @@ Specify the license under which your Fitness Gym Django Application is distribut
 ## Contact
 
 Provide contact information for users or contributors who have questions, suggestions, or feedback. You can include an email address or link to your preferred communication channel.
-![contect](cont.png)
+![contect](document/cont.png)
