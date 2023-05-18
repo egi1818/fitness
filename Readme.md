@@ -1,6 +1,6 @@
 # Fitness Gym Django Application
 
-![Fitness Gym Logo](1.png)
+![Fitness Gym Logo](document/multidevice1.png)
 
 Welcome to the Fitness Gym Django App! This application is designed to help users manage their fitness goals and schedules.
 
@@ -170,19 +170,6 @@ Install the required packages using` pip install -r requirements.txt`.
 - Run `python manage.py makemigrations`. 
 - Run `python manage.py migrate` to apply the database migrations.
 - Run `python manage.py runserver` to start the development server.
-
-## Usage
-
-Explain how users can use your Fitness Gym Django Application. Provide instructions on how to navigate the user interface, perform common tasks, and utilize various features. You can include code snippets or examples if necessary.
-
-## Contributing
-
-Explain how others can contribute to your project. Include guidelines for submitting bug reports, feature requests, or pull requests. If you have a code of conduct, link to it here.
-
-## License
-
-Specify the license under which your Fitness Gym Django Application is distributed. If you're unsure, you can use a license like MIT or Apache 2.0. Include any additional licensing information or disclaimers as necessary.
-
 ## Contact
 
 Provide contact information for users or contributors who have questions, suggestions, or feedback. You can include an email address or link to your preferred communication channel.
