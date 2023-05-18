@@ -75,6 +75,7 @@ Images used in this application are primarily related to fitness and exercise.
 
 - `Wireframes` -
 Wireframes for this application are available upon request.
+
 ## Features
 
 - User authentication: Gym members can create accounts and log in to track their workouts.
@@ -86,6 +87,7 @@ Wireframes for this application are available upon request.
 
 ## Accessibility
 This application has been designed with accessibility in mind, and includes appropriate labeling and alt text for images.
+
 
 ## Technologies Used
  - Languages Used
@@ -111,14 +113,20 @@ This application has been validated using the W3C Markup Validation Service.
 
 ## Testing User Stories
 All user stories have been tested and validated.
+-Desktop device
+![Desktop device](document/herokuapp_2023-5-18T17-40-24.png)
+-Mobile devicde
+![Mobile device](document/herokuapp_2023-5-18T17-40-58.png)
 
 ## Lighthouse
 - Home Page
-![Homepage](document/homepage.png)
-- Class Time
-![Class Time](document/classtime.png)
-- Merchandise
-![Merchandise](document/mer.png)
+![Homepage](document/about.fitness.JPG)
+- Contact
+![Contact us page](document/contact.fitness.JPG)
+- Login
+![Login page](document/login.fitness.JPG)
+-Signup
+![Signup page](document/signup.fitness.JPG)
 
 ## Deployment & Local Development
 * `Deploying to Heroku`
