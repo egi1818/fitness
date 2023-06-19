@@ -74,7 +74,12 @@ The primary font used in this application is Open Sans.
 Images used in this application are primarily related to fitness and exercise.
 
 - `Wireframes` -
-Wireframes for this application are available upon request.
+Wireframes for this project have been worked using figma
+Can find wireframes in two ways,through the link or visiting the images below.
+* [wireframe desktop and mobile](document/wireframe%20(1).png)
+
+
+https://www.figma.com/file/XeOVdO59OqkKdInDLbTwb1/gym-wireframe?type=design&node-id=12%3A397&t=GfcAabvtg0gGbgXC-1
 
 ## Features
 
